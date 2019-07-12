@@ -1,10 +1,11 @@
-
+# gets a resource via HTTP GET
 def getGoogleContent(q) :
     url = "http://www.google.com/search?q="+q
     import requests
     req = requests.request('GET', url)
     return req.content
 
+# parse and read the needed results
 def parseRes(cont) :
     import bs4 as bs
     souped = bs.BeautifulSoup(cont, 'html.parser')
@@ -30,4 +31,6 @@ def init():
 
 init()
 
-#00703232849040
+# USEAGE - cd via terminal to the folder where this file is placed. 
+# run `python afolabi_tope_insight.py`
+# 00703232849040

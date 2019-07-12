@@ -10,3 +10,6 @@ def whichIsGreater():
         print(num1, " is lesser than ", num2)
 
 whichIsGreater()
+
+# USEAGE - cd via terminal to the folder where this file is placed. 
+# run `python afolabi_tope_greater.py`
