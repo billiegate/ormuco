@@ -22,7 +22,8 @@ def isLineOverLap():
     else :
         print('this two lines do not overlap')
 
-isLineOverLap()
+if __name__ == '__main__':
+    isLineOverLap()
 
 # USEAGE - cd via terminal to the folder where this file is placed. 
 # run `python afolabi_tope_lineOverlap.py`

@@ -9,7 +9,8 @@ def whichIsGreater():
     else : 
         print(num1, " is lesser than ", num2)
 
-whichIsGreater()
+if __name__ == '__main__':
+    whichIsGreater()
 
 # USEAGE - cd via terminal to the folder where this file is placed. 
 # run `python afolabi_tope_greater.py`
